@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>かこいめし とり福 | 滋賀県東近江市の古民家囲炉裏焼き</title>
+    <meta name="description" content="築100年の古民家で味わう、厳選鶏と季節の味覚。滋賀県東近江市の「かこいめし とり福」で、囲炉裏を囲む特別なひとときを。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Shippori+Mincho:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__logo">
+                <span class="header__logo-sub">かこいめし</span>
+                <span class="header__logo-main">とり福</span>
+            </h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#concept">こだわり</a></li>
+                    <li class="nav__item"><a href="#menu">お品書き</a></li>
+                    <li class="nav__item"><a href="#space">空間</a></li>
+                    <li class="nav__item"><a href="#access">店舗情報</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__bg">
+                <img src="images/hero_irori.png" alt="囲炉裏で焼かれる新鮮な食材">
+            </div>
+            <div class="hero__content">
+                <p class="hero__catch vertical-text">囲炉裏を囲み、<br>時を味わう。</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <section id="concept" class="section concept">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">こだわり</h2>
+                    <p class="section__subtitle">Concept</p>
+                </div>
+                <div class="concept__content">
+                    <div class="concept__text fade-in-up">
+                        <h3>築百年の古民家で<br>炭火の香りに包まれる</h3>
+                        <p>
+                            滋賀県東近江市、八日市。<br>
+                            築100年を超える古民家を改装した「とり福」は、<br>
+                            どこか懐かしく、温かい空気が流れています。
+                        </p>
+                        <p>
+                            主役は、各テーブルに備えられた「囲炉裏」。<br>
+                            厳選された新鮮な鶏肉や、地元の野菜を<br>
+                            お客様自身の手で、炭火でじっくりと炙っていただく。<br>
+                            パチパチと爆ぜる炭の音、立ち上る香ばしい煙。<br>
+                            五感で味わう、贅沢なひとときをお届けします。
+                        </p>
+                    </div>
+                    <div class="concept__image fade-in-up delay-200">
+                        <img src="images/exterior_kominka.png" alt="とり福の外観">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">お品書き</h2>
+                    <p class="section__subtitle">Menu</p>
+                </div>
+                <div class="menu__grid">
+                    <div class="menu__item fade-in-up">
+                        <div class="menu__image">
+                            <img src="images/menu_chicken.png" alt="新鮮な鶏肉の盛り合わせ">
+                        </div>
+                        <div class="menu__info">
+                            <h3>厳選鶏の囲炉裏焼き</h3>
+                            <p>その日一番の部位を盛り合わせで。<br>もも、ネック、せせり、ずりなど、<br>部位ごとの食感と旨味の違いをお楽しみください。</p>
+                        </div>
+                    </div>
+                    <div class="menu__list fade-in-up delay-200">
+                        <dl>
+                            <dt>本日の鶏盛り合わせ</dt>
+                            <dd>時価</dd>
+                            <dt>名物 釜めし</dt>
+                            <dd>各種</dd>
+                            <dt>近江の地酒</dt>
+                            <dd>各種</dd>
+                            <dt>コース料理（飲み放題付）</dt>
+                            <dd>4,500円〜</dd>
+                        </dl>
+                        <p class="menu__note">※ランチタイム（11:30-14:00）も営業しております。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="space" class="section space">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">空間</h2>
+                    <p class="section__subtitle">Space</p>
+                </div>
+                <div class="space__content fade-in-up">
+                    <div class="space__image">
+                        <img src="images/interior_atmosphere.png" alt="落ち着いた店内の様子">
+                    </div>
+                    <div class="space__text">
+                        <p>
+                            高い天井と太い梁が印象的な店内。<br>
+                            ゆったりとくつろげる掘りごたつ席や、<br>
+                            お一人様でも気軽に楽しめるカウンター席をご用意。<br>
+                            デート、ご家族での団欒、大切なご宴会まで、<br>
+                            様々なシーンでご利用いただけます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section access">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">店舗情報</h2>
+                    <p class="section__subtitle">Access</p>
+                </div>
+                <div class="access__grid">
+                    <div class="access__info fade-in-up">
+                        <dl>
+                            <dt>店名</dt>
+                            <dd>かこいめし とり福</dd>
+                            <dt>住所</dt>
+                            <dd>〒527-0025 滋賀県東近江市八日市東本町5-36</dd>
+                            <dt>営業時間</dt>
+                            <dd>
+                                ランチ: 11:30 - 14:00 (L.O. 13:30)<br>
+                                ディナー: 17:00 - 24:00 (L.O. 23:00)
+                            </dd>
+                            <dt>定休日</dt>
+                            <dd>木曜日</dd>
+                            <dt>アクセス</dt>
+                            <dd>近江鉄道「八日市駅」より徒歩約12分</dd>
+                        </dl>
+                        <div class="access__actions">
+                            <a href="https://www.instagram.com/kakoimeshi.torifuku/?hl=ja" target="_blank"
+                                class="btn btn--instagram">
+                                <span>Instagramを見る</span>
+                            </a>
+                            <a href="tel:0748220556" class="btn btn--primary">
+                                <span>予約する</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="access__map fade-in-up delay-200">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.567890123456!2d136.200000!3d35.100000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDA2JzAwLjAiTiAxMzbCsDEyJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; Kakoimeshi Torifuku. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
